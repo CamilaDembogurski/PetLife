@@ -312,3 +312,14 @@ footer p a{
         padding: 30px 20px;
     }
 }
+
+@media screen and (max-width: 610px){
+    header img{
+        z-index: 2;
+        position: relative;
+    }
+    header nav{
+        width: 100%;
+        right: -100%;
+    }
+}
